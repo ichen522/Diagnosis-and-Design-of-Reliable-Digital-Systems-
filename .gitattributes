@@ -1,0 +1,4 @@
+# Keep LF line endings so files edited on Windows diff cleanly and build the same on Linux
+* text=auto eol=lf
+*.zip binary
+*.pdf binary

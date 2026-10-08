@@ -1,0 +1,21 @@
+# --- not part of this repo ---
+# GitHub Classroom clone (has its own .git; submit there)
+hw1/
+# lecture slides and assignment PDFs
+james/
+project/
+*.pdf
+
+# --- build / test output ---
+build/
+.auto-tests-parser/
+**/auto-tests-parser/outputs/
+**/auto-tests-parser/tests/
+
+# --- editor / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
