@@ -11,6 +11,8 @@ build/
 .auto-tests-parser/
 **/auto-tests-parser/outputs/
 **/auto-tests-parser/tests/
+# test.py unzips auto-tests-phase1.zip here and deletes it when done
+**/auto-tests-phase1/
 
 # --- editor / OS ---
 .vscode/

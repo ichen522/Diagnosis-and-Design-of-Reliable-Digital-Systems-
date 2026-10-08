@@ -5,8 +5,8 @@ USC EE658 (Fall 2026) course projects, in C++. Together they build a small test-
 | Folder | Project | New command | Status |
 |---|---|---|---|
 | [P0](P0/) | Netlist parser & levelizer | `LEV` | done — 17/17 benchmarks |
-| [P1](P1/) | Logic simulator | `LOGICSIM` | next |
-| [P2](P2/) | TBD | | |
+| [P1](P1/) | Logic simulator | `LOGICSIM` | done — 27/27 course tests, 17 circuits vs reference model |
+| [P2](P2/) | TBD | | next |
 
 Each project extends the previous one. Every folder is a self-contained snapshot that builds on its own:
 
@@ -18,13 +18,13 @@ cmake .. && make
 
 ## Adding the next project
 
-1. Copy the previous folder: `cp -r P0 P1`
+1. Copy the previous folder, e.g. `cp -r P1 P2`
 2. Put the new module in its own `.cpp` / `.h`, add one function plus one row to `commands[]` in `main.cpp`, and register the new source in `CMakeLists.txt`
 3. Copy the assignment's `test.py`, test zip and golden outputs into the folder
 4. Test, update the table above, then:
 
 ```
-git add P1 README.md
-git commit -m "P1: logic simulator"
+git add P2 README.md
+git commit -m "P2: <project name>"
 git push
 ```
